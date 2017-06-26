@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/linusmarco/svg-icons/issues"
   },
-  "homepage": "https://github.com/linusmarco/svg-icons#readme"
+  "homepage": "https://github.com/linusmarco/svg-icons#readme",
+  "dependencies": {
+      "gulp": "^3.9.1",
+      "gulp-svgmin": "^1.2.4"
+  }
 }
