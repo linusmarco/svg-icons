@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 280 280">
+    <defs>
+        <clipPath id="clipper">
+            <circle cx="140" cy="140" r="115"/>
+        </clipPath>
+        
+        <path d="M 0 0
+                 l 24.3 17.6
+                 l -9.27 28.5
+                 l -30 0
+                 l -9.27 -28.5
+                 l 24.3 -17.6
+                 l 24.3 17.6" 
+              id="pentagon"
+              fill="black" 
+              stroke="black" 
+              stroke-width="0"
+              transform="scale(1.158)"/>
+    </defs>
+    
+    <g clip-path="url(#clipper)">
+        <circle cx="140" cy="140" r="110" fill="none" stroke="black" stroke-width="10"/>
+        
+        <use transform="translate(140,111.9) rotate(0)" href="#pentagon"/>
+        <use transform="translate(140,77.16) rotate(180)" href="#pentagon"/>
+        <use transform="translate(78.86,121.51) rotate(108)" href="#pentagon"/>
+        <use transform="translate(201.14,121.51) rotate(-108)" href="#pentagon"/>
+        <use transform="translate(102.25,193.42) rotate(36)" href="#pentagon"/>
+        <use transform="translate(177.75,193.42) rotate(-36)" href="#pentagon"/>
+      
+        <path d="M 140,140 l 0,-110"
+              fill="none" 
+              stroke="black" 
+              stroke-width="2"/>
+
+        <path d="M 140,140 l-65,89"
+              fill="none" 
+              stroke="black" 
+              stroke-width="2"/>
+
+        <path d="M 140,140 l 65,89"
+              fill="none" 
+              stroke="black" 
+              stroke-width="2"/>
+
+        <path d="M 140,140 l 65,89"
+              fill="none" 
+              stroke="black" 
+              stroke-width="2"/>
+
+        <path d="M 140,140 l -105,-34"
+              fill="none" 
+              stroke="black" 
+              stroke-width="2"/>
+
+        <path d="M 140,140 l 105,-34"
+              fill="none" 
+              stroke="black" 
+              stroke-width="2"/>
+    </g>
+</svg>
