@@ -1,0 +1,20 @@
+{
+  "name": "svg-icons",
+  "version": "1.0.0",
+  "description": "free, simple SVG icons",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linusmarco/svg-icons.git"
+  },
+  "author": "Linus Marco",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/linusmarco/svg-icons/issues"
+  },
+  "homepage": "https://github.com/linusmarco/svg-icons#readme"
+}
