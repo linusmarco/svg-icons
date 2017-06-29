@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" 
+     viewBox="0 0 280 280">
+    <defs>
+        <clipPath id="clipper">
+            <circle cx="140" cy="140" r="115"/>
+        </clipPath>
+    </defs>
+    
+    <g clip-path="url(#clipper)">
+        <circle cx="140" cy="140" r="110" fill="none" stroke="black" stroke-width="10"/>
+        <circle cx="120" cy="70"  r="13" fill="black" stroke="none"/>
+        <circle cx="160" cy="70"  r="13" fill="black" stroke="none"/>
+        <circle cx="140" cy="120" r="13" fill="black" stroke="none"/>
+    </g>
+</svg>
