@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" 
      xmlns:xlink="http://www.w3.org/1999/xlink" 
-     width="100" height="100" viewBox="0 0 280 280">
+     viewBox="0 0 280 280">
     <defs>
         <clipPath id="clipper">
             <circle cx="140" cy="140" r="115"/>
@@ -23,12 +23,12 @@
     <g clip-path="url(#clipper)">
         <circle cx="140" cy="140" r="110" fill="none" stroke="black" stroke-width="10"/>
         
-        <use xlink:href="#pentagon" transform="translate(140,111.9) rotate(0)" />
-        <use xlink:href="#pentagon" transform="translate(140,77.16) rotate(180)" />
-        <use xlink:href="#pentagon" transform="translate(78.86,121.51) rotate(108)" />
-        <use xlink:href="#pentagon" transform="translate(201.14,121.51) rotate(-108)" />
-        <use xlink:href="#pentagon" transform="translate(102.25,193.42) rotate(36)" />
-        <use xlink:href="#pentagon" transform="translate(177.75,193.42) rotate(-36)" />
+        <use xlink:href="#pentagon" transform="translate(140,110.4) rotate(0)" />
+        <use xlink:href="#pentagon" transform="translate(140.1,77.16) rotate(180)" />
+        <use xlink:href="#pentagon" transform="translate(78.86,120.1) rotate(108)" />
+        <use xlink:href="#pentagon" transform="translate(201.14,120.1) rotate(-108)" />
+        <use xlink:href="#pentagon" transform="translate(101,193.42) rotate(36)" />
+        <use xlink:href="#pentagon" transform="translate(179,193.42) rotate(-36)" />
       
         <path d="M 140,140 l 0,-110"
               fill="none" 
