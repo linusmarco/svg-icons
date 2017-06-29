@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" 
+     viewBox="0 0 280 280">
+    <defs>
+        <clipPath id="clipper">
+            <rect x="0" y="160" height="100" width="280"/>
+        </clipPath>
+    </defs>
+
+    <g>
+        <ellipse cx="140" cy="110" rx="110" ry="30" fill="none" stroke="black" stroke-width="10"/>
+        <ellipse cx="140" cy="160" rx="110" ry="30" fill="none" stroke="black" stroke-width="10" clip-path="url(#clipper)"/>
+        <line x1="30" y1="109" 
+              x2="30" y2="161"
+              stroke="black" stroke-width="10"/>
+        <line x1="250" y1="109" 
+              x2="250" y2="161"
+              stroke="black" stroke-width="10"/>
+    </g>
+</svg>
